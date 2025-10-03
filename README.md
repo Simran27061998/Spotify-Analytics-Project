@@ -50,7 +50,7 @@ Steps performed in spotify_history_cleaned_script.py:
 4.Calculated duration in minutes and hours.
 5.Exported cleaned dataset into MySQL and CSV for further analysis.
 
-[Script_link](../spotify_history_cleaned_script.py)
+[spotify_history_cleaned_script.py](python_scripts/spotify_history_cleaned_script.py)
 
 # Database Design (MySQL)
 
@@ -59,7 +59,7 @@ Steps performed in spotify_history_cleaned_script.py:
 a.Fact Table: listening_history (contains plays, durations, foreign keys)
 b.Dimension Tables: artist_info, album_info, track_info, platform_info, date_info, time_info
 
-2.Entity-Relationship Diagram (ERD): [ERD](imageserd_dbdiagram.png.pdf)
+2.Entity-Relationship Diagram (ERD):![ERD](sql/erd_dbdiagram.png)
 
 
 # Business Questions Answered with SQL
@@ -80,7 +80,7 @@ b.Dimension Tables: artist_info, album_info, track_info, platform_info, date_inf
 9.Most frequently played track (by count)
 10.Highest listening quarter per year
 
-[sql_queries](spotify_analysis_queries.md)
+[spotify_analysis_queries.md](sql/spotify_analysis_queries.md)
 
 # Dashboard (Power BI)
 
@@ -93,7 +93,7 @@ Interactive dashboard built in Power BI:
 5.Heatmap: Listening hours vs days
 6.Scatter plot: Avg minutes per play vs total plays
 
-[File:](Spotify_portfolio_project.pbix)
+[Spotify_portfolio_project.pbix](power_bi/Spotify_portfolio_project.pbix)
 
 # How to Reproduce
 
