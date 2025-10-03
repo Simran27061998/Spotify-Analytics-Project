@@ -17,9 +17,8 @@ WHERE row_no <= 3
 ORDER BY year,total_minutes DESC;
 
 ```
-[Output CSV ](../sql_results/q1_top_artists.csv)
+[Query 1 Output CSV](../sql_results/q1_top_artists.csv)  
 
-```
 ## Query 2: Top 3 Albums by Total Listening Time Per Year
 
 ```sql
@@ -40,6 +39,9 @@ WHERE row_no <= 3
 ORDER BY year;
 
 ```
+[Query 2 Output CSV](../sql_results/q2_top_albums.csv)  
+
+
 ## Query 3: Top 3 Tracks by Total Listening Time Per Year
 
 ```sql
@@ -60,6 +62,8 @@ WHERE row_no <= 3
 ORDER BY year;
 
 ```
+[Query 3 Output CSV](../sql_results/q3_top_tracks.csv) 
+
 ## Query 4: Which Artists Appeared as #1 Across Multiple Years?
 
 ```sql
@@ -78,6 +82,8 @@ GROUP BY artist_name
 ORDER BY years_on_top DESC;
 
 ```
+[Query 4 Output CSV](../sql_results/q4_#1_artist.csv)
+
 ## Query 5: Listening Growth Over the Years
 
 ```sql
@@ -89,6 +95,8 @@ GROUP BY date_info.year
 ORDER BY date_info.year;
 
 ```
+[Query 5 Output CSV](../sql_results/q5_listening_growth.csv)  
+
 ## Query 6: Which Platform Was Used Most Over the Years?
 
 ```sql
@@ -108,6 +116,8 @@ WHERE row_no = 1
 ORDER BY year;
 
 ```
+[Query 6 Output CSV](../sql_results/q6_most_used_platforms.csv)  
+
 ## Query 7: Avg Minutes Per Session by Platform
 
 ```sql
@@ -121,6 +131,8 @@ GROUP BY platform_info.platform_name
 ORDER BY avg_minutes_per_session DESC;
 
 ```
+[Query 7 Output CSV](../sql_results/q7_avg_minutes_per_session.csv)  
+
 ## Query 8: Weekend vs Weekday Listening (Year by Year)
 
 ```sql
@@ -134,6 +146,8 @@ ORDER BY date_info.year, total_minutes DESC;
 
 
 ```
+[Query 8 Output CSV](../sql_results/q8_weekend_vs_weekday.csv)  
+
 ## Query 9: What Time of Day Does User Listen Most?
 
 ```sql
@@ -147,6 +161,8 @@ ORDER BY total_minutes DESC;
 
 
 ```
+[Query 9 Output CSV](../sql_results/q9_time_of_the_day.csv)  
+
 ## Query 10: Which Artist is Streamed Most on Each Platform?
 
 ```sql
@@ -166,6 +182,8 @@ WHERE row_no = 1
 ORDER BY total_minutes DESC;
 
 ```
+ [Query 10 Output CSV](../sql_results/q10_top_artists_by_platform.csv)  
+
 ## Query 11: Which Track Was Played the Most (by Count)
 
 ```sql
@@ -180,6 +198,8 @@ ORDER BY play_count DESC
 LIMIT 5;
 
 ```
+ [Query 11 Output CSV](../sql_results/q11_top_tracks_count.csv)  
+
 ## Query 12: Highest Listening Quarter Per Year
 
 ```sql
@@ -196,3 +216,6 @@ FROM (
 ) ranked 
 WHERE row_no = 1
 ORDER BY year;
+
+```
+[Query 12 Output CSV](../sql_results/q12_highest_listening_quarter.csv)  
