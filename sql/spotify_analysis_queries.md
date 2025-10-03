@@ -82,7 +82,7 @@ GROUP BY artist_name
 ORDER BY years_on_top DESC;
 
 ```
-[Query 4 Output CSV](../sql_results/q4_#1_artist.csv)
+[Query 4 Output CSV](../sql_results/q4_top_artists_multiple_years.csv)
 
 ## Query 5: Listening Growth Over the Years
 
