@@ -59,7 +59,7 @@ Steps performed in spotify_history_cleaned_script.py:
 a.Fact Table: listening_history (contains plays, durations, foreign keys)
 b.Dimension Tables: artist_info, album_info, track_info, platform_info, date_info, time_info
 
-2.Entity-Relationship Diagram (ERD):![ERD](sql/erd_dbdiagram.png)
+2.Entity-Relationship Diagram (ERD):[ERD](sql/erd_dbdiagram.png)
 
 
 # Business Questions Answered with SQL
