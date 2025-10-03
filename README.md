@@ -50,7 +50,7 @@ Steps performed in spotify_history_cleaned_script.py:
 4.Calculated duration in minutes and hours.
 5.Exported cleaned dataset into MySQL and CSV for further analysis.
 
-[Script_link](spotify_history_cleaned_script.py)
+[Script_link](../spotify_history_cleaned_script.py)
 
 # Database Design (MySQL)
 
