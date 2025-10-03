@@ -146,7 +146,7 @@ ORDER BY date_info.year, total_minutes DESC;
 
 
 ```
-[Query 8 Output CSV](../sql_results/q8_weekend_vs_weekday.csv)  
+[Query 8 Output CSV](../sql_results/q8_weekday_vs_weekend.csv)  
 
 ## Query 9: What Time of Day Does User Listen Most?
 
@@ -218,4 +218,4 @@ WHERE row_no = 1
 ORDER BY year;
 
 ```
-[Query 12 Output CSV](../sql_results/q12_highest_listening_quarter.csv)  
+[Query 12 Output CSV](../sql_results/q12_highest_listening_quater.csv)  
