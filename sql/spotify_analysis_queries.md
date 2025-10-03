@@ -17,6 +17,9 @@ WHERE row_no <= 3
 ORDER BY year,total_minutes DESC;
 
 ```
+Output CSV : sql_results/q1_top_artists.csv
+
+```
 ## Query 2: Top 3 Albums by Total Listening Time Per Year
 
 ```sql
