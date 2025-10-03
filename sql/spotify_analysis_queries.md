@@ -116,7 +116,7 @@ WHERE row_no = 1
 ORDER BY year;
 
 ```
-[Query 6 Output CSV](../sql_results/q6_most_used_platforms.csv)  
+[Query 6 Output CSV](../sql_results/q6_most_used_platform.csv)  
 
 ## Query 7: Avg Minutes Per Session by Platform
 
@@ -131,7 +131,7 @@ GROUP BY platform_info.platform_name
 ORDER BY avg_minutes_per_session DESC;
 
 ```
-[Query 7 Output CSV](../sql_results/q7_avg_minutes_per_session.csv)  
+[Query 7 Output CSV](../sql_results/q7_avg_min_per_session.csv)  
 
 ## Query 8: Weekend vs Weekday Listening (Year by Year)
 
