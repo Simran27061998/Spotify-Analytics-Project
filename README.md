@@ -98,8 +98,8 @@ Interactive dashboard built in Power BI:
 Note : The `.pbix` file cannot be viewed on GitHub directly.  
 To open the dashboard, please download the file and open it in **Power BI Desktop** or refer to the screenshots below : 
 
-[Spotify_portfolio_project_dashboard_SS](Spotify-Analytics-Project/power_bi/Spotify_dashboard Page 1.png)
-[Spotify_portfolio_project_dashboard_SS](Spotify-Analytics-Project/power_bi/Spotify_Dashboard Page 2.png)
+[Spotify_portfolio_project_dashboard_SS](power_bi/Spotify_dashboard_page1.png)
+[Spotify_portfolio_project_dashboard_SS](power_bi/Spotify_dashboard_page2.png)
 
 # How to Reproduce
 
