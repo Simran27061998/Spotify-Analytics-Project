@@ -29,7 +29,7 @@ The goal was to replicate a **real-world analytics project** and present results
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 spotify-analytics-project/
@@ -74,7 +74,7 @@ Steps performed in **spotify_clean_python_script.py**:
 
 ---
 
-## 🗄 Database Design (MySQL)
+##  Database Design (MySQL)
 
 1. **Star Schema design**:
 
