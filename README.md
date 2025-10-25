@@ -155,15 +155,6 @@ To open, download and open in **Power BI Desktop**.
 
 ---
 
-##  Future Improvements
-
-* Automate ETL pipeline with **Airflow** or **dbt**
-* Deploy dashboard on **Power BI Service** or **Tableau Public**
-* Enrich with **Spotify API metadata** (genres, popularity, etc.)
-* Perform **predictive modeling** for listening trends
-
----
-
 ##  Key Takeaways
 
 * Full **end-to-end workflow**: Python → SQL → Power BI
